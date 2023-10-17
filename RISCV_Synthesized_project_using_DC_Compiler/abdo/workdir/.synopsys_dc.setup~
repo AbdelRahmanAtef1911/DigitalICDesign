@@ -1,0 +1,7 @@
+set_app_var search_path "/home/iti/Desktop/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/"
+set_app_var link_library  "* NangateOpenCellLibrary_worst.db "
+set_app_var target_library  "NangateOpenCellLibrary_worst.db"
+#set_app_var symbol_library  "NangateOpenCellLibrary_worst.sdb"
+
+alias h history
+alias rc report_constraint -all_violators

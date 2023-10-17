@@ -1,0 +1,37 @@
+ 
+****************************************
+Report : cell
+Design : RISC_v
+Version: K-2015.06
+Date   : Thu Oct  5 01:17:48 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    p - parameterized
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+A                         Adder_width32                   134.596001
+                                                                    h, p
+A1                        add_4                           76.341999 h
+AL                        ALU                             666.861995
+                                                                    h
+Controller                Control_Unit                    36.974000 h, n
+D                         Data_Memory                     2388.414055
+                                                                    h, n
+EX                        Immediate_extender              30.856000 h
+PC_register               PCCounter                       187.264006
+                                                                    h, n
+R                         REG_FILE                        9685.592209
+                                                                    h, n
+select_address            mux32_width32_0                 79.002001 h, p
+select_operand            mux32_width32_1                 79.002001 h, p
+select_result             mux31_width32                   95.494001 h, p
+--------------------------------------------------------------------------------
+Total 11 cells                                            13460.398268
+1
