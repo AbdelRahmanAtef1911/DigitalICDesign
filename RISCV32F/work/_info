@@ -1,0 +1,1222 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vadd_4
+Z0 !s110 1702089119
+!i10b 1
+!s100 ?YX1IJ^>OFK6mE81^BXN]3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IkRogohUf^bc>N2M98lROk0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dG:/iti Digital Design Track/project/RISCV32F
+Z4 w1696441294
+8Add_4.v
+FAdd_4.v
+!i122 356
+L0 1 5
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1702089119.000000
+Z7 !s107 Instruction_Memory.v|Reg_file.v|Add_4.v|PC.v|Data_Memory.v|ALU.v|mux32.v|mux31.v|Immediate_extender.v|Main_Decoder.v|Control_Unit.v|Adder.v|ALU_Decoder.v|RISC_v.v|G:/iti Digital Design Track/project/RISCV32F/top_module.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/top_module.v|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+vAdder
+R0
+!i10b 1
+!s100 ?<5B3jdN7@KdSl0ZY?DU`2
+R1
+IW^W2INC[?`bBMiV62ziBg3
+R2
+R3
+R4
+8Adder.v
+FAdder.v
+!i122 356
+L0 1 11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@adder
+vALU
+R0
+!i10b 1
+!s100 ^K]gbod4?PY>D5273Jc]l1
+R1
+IkBXBYDHVf?BLXUe5DLGP72
+R2
+R3
+w1696596171
+8ALU.v
+FALU.v
+!i122 356
+Z11 L0 1 26
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@a@l@u
+vALU_Decoder
+R0
+!i10b 1
+!s100 _Y5ThlmIX1Z6OLXU:X`Bb1
+R1
+IlDlM@k^J6?JUHPgY[]^;P0
+R2
+R3
+w1696596296
+8ALU_Decoder.v
+FALU_Decoder.v
+!i122 356
+L0 1 32
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@a@l@u_@decoder
+vand_gate
+!s110 1698696295
+!i10b 1
+!s100 :aRT968?nTiQecNc=IgPN1
+R1
+IDXAHXOAz5fi=l?g5GZ8Y@3
+R2
+R3
+w1698696289
+8G:\iti Digital Design Track\project\RISCV32F\a.v
+FG:\iti Digital Design Track\project\RISCV32F\a.v
+!i122 0
+L0 1 7
+R5
+r1
+!s85 0
+31
+!s108 1698696294.000000
+!s107 G:\iti Digital Design Track\project\RISCV32F\a.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\iti Digital Design Track\project\RISCV32F\a.v|
+!i113 1
+R9
+R10
+vclassify
+!s110 1702089103
+!i10b 1
+!s100 VD@gJfXM<5_a4?j1e[cR_2
+R1
+I8IWjK3IDgM3iXSWY]dU982
+R2
+R3
+w1702087692
+8G:\iti Digital Design Track\project\RISCV32F\classify.v
+FG:\iti Digital Design Track\project\RISCV32F\classify.v
+!i122 340
+L0 2 30
+R5
+r1
+!s85 0
+31
+!s108 1702089102.000000
+!s107 G:\iti Digital Design Track\project\RISCV32F\classify.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\iti Digital Design Track\project\RISCV32F\classify.v|
+!i113 1
+R9
+R10
+vcompare
+!s110 1702089101
+!i10b 1
+!s100 gk^bNgKbP7Z9dhOalJDPn3
+R1
+ID1;5Y:jaOLT3zXAR4QJT60
+R2
+R3
+w1699649742
+8G:\iti Digital Design Track\project\RISCV32F\compare.v
+FG:\iti Digital Design Track\project\RISCV32F\compare.v
+!i122 338
+L0 1 66
+R5
+r1
+!s85 0
+31
+!s108 1702089100.000000
+!s107 G:\iti Digital Design Track\project\RISCV32F\compare.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\iti Digital Design Track\project\RISCV32F\compare.v|
+!i113 1
+R9
+R10
+vControl_Unit
+R0
+!i10b 1
+!s100 0`HJB8dkRKR9aY0U]KjIo0
+R1
+INWJ5E]QW<JEDXYNI02iSS0
+R2
+R3
+w1699832667
+8Control_Unit.v
+FControl_Unit.v
+!i122 356
+L0 1 20
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@control_@unit
+vcsa
+!s110 1702089096
+!i10b 1
+!s100 OfgDoz__GQMN4ZmC68DQ_3
+R1
+I>m_VB8APG^0NFHO4bUMh03
+R2
+R3
+w1699304729
+8G:/iti Digital Design Track/project/RISCV32F/csa.v
+FG:/iti Digital Design Track/project/RISCV32F/csa.v
+!i122 334
+L0 1 9
+R5
+r1
+!s85 0
+31
+!s108 1702089095.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/csa.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/csa.v|
+!i113 1
+R9
+R10
+vData_Memory
+R0
+!i10b 1
+!s100 60FRN@T;GQgRYP1GRX_KP1
+R1
+I4ni@D4<GI]Val5W8SOzg^2
+R2
+R3
+Z12 w1696441293
+8Data_Memory.v
+FData_Memory.v
+!i122 356
+L0 1 44
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@data_@memory
+vf2i
+!s110 1702089090
+!i10b 1
+!s100 4GWDL8Gb:OWcZ2f>3?IBd1
+R1
+I`eR07]1o[B5Vz7;2:WB`l3
+R2
+R3
+w1699458752
+8G:/iti Digital Design Track/project/RISCV32F/f2i.v
+FG:/iti Digital Design Track/project/RISCV32F/f2i.v
+!i122 330
+L0 1 180
+R5
+r1
+!s85 0
+31
+!s108 1702089090.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/f2i.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/f2i.v|
+!i113 1
+R9
+R10
+vfadder
+!s110 1702089094
+!i10b 1
+!s100 Inj@elo;F5le<BozEb?HO1
+R1
+INgSH3VY0hQO^=j8MV8JR`2
+R2
+R3
+w1699646375
+8G:\iti Digital Design Track\project\RISCV32F\fadder.v
+FG:\iti Digital Design Track\project\RISCV32F\fadder.v
+!i122 332
+L0 1 160
+R5
+r1
+!s85 0
+31
+!s108 1702089093.000000
+!s107 G:\iti Digital Design Track\project\RISCV32F\fadder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\iti Digital Design Track\project\RISCV32F\fadder.v|
+!i113 1
+R9
+R10
+vfcsr
+!s110 1702089122
+!i10b 1
+!s100 Td[lfcnTLHcShBXkHFTVR0
+R1
+I7XRzC^Eo^[ZBUI=:VNlzn1
+R2
+R3
+w1699731364
+8G:/iti Digital Design Track/project/RISCV32F/fcsr.v
+FG:/iti Digital Design Track/project/RISCV32F/fcsr.v
+!i122 358
+L0 2 29
+R5
+r1
+!s85 0
+31
+!s108 1702089121.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/fcsr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/fcsr.v|
+!i113 1
+R9
+R10
+vfdiv_newton
+!s110 1699722878
+!i10b 1
+!s100 keX9hC2lfIgz?kYQKIZWV3
+R1
+I@b>FGf44i?`QK>`iJ7=T=3
+R2
+R3
+w1698700275
+8G:/iti Digital Design Track/project/RISCV32F/fdiv_newton.v
+FG:/iti Digital Design Track/project/RISCV32F/fdiv_newton.v
+!i122 93
+L0 1 136
+R5
+r1
+!s85 0
+31
+!s108 1699722876.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/fdiv_newton.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/fdiv_newton.v|
+!i113 1
+R9
+R10
+vfmul
+!s110 1702089095
+!i10b 1
+!s100 3:69`2z@TU5hB0XIGdEK01
+R1
+IVi>8=Rj0_i:TfmPQXP[z40
+R2
+R3
+w1699636816
+8G:/iti Digital Design Track/project/RISCV32F/fmul.v
+FG:/iti Digital Design Track/project/RISCV32F/fmul.v
+!i122 333
+L0 1 114
+R5
+r1
+!s85 0
+31
+!s108 1702089094.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/fmul.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/fmul.v|
+!i113 1
+R9
+R10
+vFPU_DECODER
+!s110 1702089125
+!i10b 1
+!s100 f]e3P34>i]aImzWBHmcBn2
+R1
+IPkeTGejlKAa4T0ZbQLR1c3
+R2
+R3
+w1699908418
+8G:/iti Digital Design Track/project/RISCV32F/FPU_DECODER.v
+FG:/iti Digital Design Track/project/RISCV32F/FPU_DECODER.v
+!i122 361
+L0 1 79
+R5
+r1
+!s85 0
+31
+!s108 1702089125.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/FPU_DECODER.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/FPU_DECODER.v|
+!i113 1
+R9
+R10
+n@f@p@u_@d@e@c@o@d@e@r
+vFPU_unit
+!s110 1702089123
+!i10b 1
+!s100 ;5a]4WzgeUk6568kVBXgl1
+R1
+I^Q8DBJj1o1eWK0eF<`5TD0
+R2
+R3
+w1699826821
+8G:/iti Digital Design Track/project/RISCV32F/FPU_unit.v
+FG:/iti Digital Design Track/project/RISCV32F/FPU_unit.v
+!i122 359
+L0 1 38
+R5
+r1
+!s85 0
+31
+!s108 1702089122.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/FPU_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/FPU_unit.v|
+!i113 1
+R9
+R10
+n@f@p@u_unit
+vfREG_FILE
+!s110 1702089121
+!i10b 1
+!s100 o1N72:?BbCzXD1@CM<c0V3
+R1
+IQ5bjaP?GPANLf20NM]D@n0
+R2
+R3
+w1699728162
+8G:/iti Digital Design Track/project/RISCV32F/fREG_FILE.v
+FG:/iti Digital Design Track/project/RISCV32F/fREG_FILE.v
+!i122 357
+L0 2 72
+R5
+r1
+!s85 0
+31
+!s108 1702089120.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/fREG_FILE.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/fREG_FILE.v|
+!i113 1
+R9
+R10
+nf@r@e@g_@f@i@l@e
+vfsqrt_newton
+!s110 1699722919
+!i10b 1
+!s100 W3YCik`@KTZ4f@]z@_Z_>2
+R1
+I4le19^7E`cIE8fJR2=Fd=3
+R2
+R3
+w1698702607
+8G:/iti Digital Design Track/project/RISCV32F/fsqrt_newton.v
+FG:/iti Digital Design Track/project/RISCV32F/fsqrt_newton.v
+!i122 100
+L0 1 80
+R5
+r1
+!s85 0
+31
+!s108 1699722916.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/fsqrt_newton.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/fsqrt_newton.v|
+!i113 1
+R9
+R10
+vi2f
+!s110 1702089092
+!i10b 1
+!s100 1R6Hk193goUK_cnIV6JF_1
+R1
+I=AiM5K_idiJ]aS>lSUc]L0
+R2
+R3
+w1702068818
+8G:\iti Digital Design Track\project\RISCV32F\i2f.v
+FG:\iti Digital Design Track\project\RISCV32F\i2f.v
+!i122 331
+L0 2 28
+R5
+r1
+!s85 0
+31
+!s108 1702089091.000000
+!s107 G:\iti Digital Design Track\project\RISCV32F\i2f.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\iti Digital Design Track\project\RISCV32F\i2f.v|
+!i113 1
+R9
+R10
+vImmediate_extender
+R0
+!i10b 1
+!s100 :ZN94W<QUaQlCV>3k6fkL1
+R1
+IhSoCDeI]cASA0aLgmGGbO2
+R2
+R3
+R12
+8Immediate_extender.v
+FImmediate_extender.v
+!i122 356
+Z13 L0 1 15
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@immediate_extender
+vInstruction_Memory
+R0
+!i10b 1
+!s100 WM5WIk:4]7FAh[[2d=5093
+R1
+I87iWj8`4i=?^BKZ4>ID<X2
+R2
+R3
+R12
+8Instruction_Memory.v
+FInstruction_Memory.v
+!i122 356
+Z14 L0 1 12
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@instruction_@memory
+vMain_Decoder
+R0
+!i10b 1
+!s100 86^1McJef]776DC>K7H[93
+R1
+I7^WUMmMLLj8n_h50JKFFL1
+R2
+R3
+w1702089079
+8Main_Decoder.v
+FMain_Decoder.v
+!i122 356
+L0 1 68
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@main_@decoder
+vmin_max
+!s110 1702089102
+!i10b 1
+!s100 d=^aMR5AMAP>fMS6TPIS[2
+R1
+ID2dhgQj9A5m`NcYkz7TJ22
+R2
+R3
+w1699649957
+8G:\iti Digital Design Track\project\RISCV32F\min_max.v
+FG:\iti Digital Design Track\project\RISCV32F\min_max.v
+!i122 339
+L0 2 62
+R5
+r1
+!s85 0
+31
+!s108 1702089101.000000
+!s107 G:\iti Digital Design Track\project\RISCV32F\min_max.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\iti Digital Design Track\project\RISCV32F\min_max.v|
+!i113 1
+R9
+R10
+vmux31
+R0
+!i10b 1
+!s100 6TWJ1B46cIhR1TO3cdZnD0
+R1
+Ig4F81UmL6k_2??VRjOmf<3
+R2
+R3
+R12
+8mux31.v
+Fmux31.v
+!i122 356
+L0 1 16
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+vmux32
+R0
+!i10b 1
+!s100 fdad^gV0Qe_XJK]5[[?nd2
+R1
+IdTKHFPPRL=8h1::EXM`m62
+R2
+R3
+R12
+8mux32.v
+Fmux32.v
+!i122 356
+L0 1 14
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+vmux91
+!s110 1702089124
+!i10b 1
+!s100 K;jNdQn<>IQj]9WVT<XgY3
+R1
+I`MlaXE4?8K1lRj3CVi`im3
+R2
+R3
+w1699737013
+8G:/iti Digital Design Track/project/RISCV32F/mux9x1.v
+FG:/iti Digital Design Track/project/RISCV32F/mux9x1.v
+!i122 360
+R11
+R5
+r1
+!s85 0
+31
+!s108 1702089124.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/mux9x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/mux9x1.v|
+!i113 1
+R9
+R10
+vnewton24
+!s110 1699722889
+!i10b 1
+!s100 <zZk0^e_aZRzC`eeYUzh40
+R1
+IY0PTOW3n0FT0LFC`@U=4K1
+R2
+R3
+w1698700616
+8G:/iti Digital Design Track/project/RISCV32F/newton24.v
+FG:/iti Digital Design Track/project/RISCV32F/newton24.v
+!i122 95
+L0 1 85
+R5
+r1
+!s85 0
+31
+!s108 1699722887.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/newton24.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/newton24.v|
+!i113 1
+R9
+R10
+vPCCounter
+R0
+!i10b 1
+!s100 RWU?[oW:J@i9Y=Wh[BgZk1
+R1
+IB;Sha<NG[EMa;G2RzKYC^3
+R2
+R3
+R4
+8PC.v
+FPC.v
+!i122 356
+R13
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@p@c@counter
+vREG_FILE
+R0
+!i10b 1
+!s100 34[CV93hNSdL2:7hf^nJC2
+R1
+IYHfJ63S81O?6T@9Sf4az10
+R2
+R3
+R4
+8Reg_file.v
+FReg_file.v
+!i122 356
+L0 2 73
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@r@e@g_@f@i@l@e
+vRISC_v
+R0
+!i10b 1
+!s100 l??CP7]dC_<kaRA8dJ5[22
+R1
+I`9=z]b0XDISPnZ>^<hYmU0
+R2
+R3
+w1702089075
+8RISC_v.v
+FRISC_v.v
+!i122 356
+L0 16 75
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@r@i@s@c_v
+vRISC_V_tb
+!s110 1702089118
+!i10b 1
+!s100 NR8GiGRjgeZNSOZE0046`3
+R1
+II3B?CWCNYSh6=gQX9LY]o2
+R2
+R3
+R4
+8G:/iti Digital Design Track/project/RISCV32F/RISC_V_tb.v
+FG:/iti Digital Design Track/project/RISCV32F/RISC_V_tb.v
+!i122 355
+L0 6 35
+R5
+r1
+!s85 0
+31
+!s108 1702089117.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/RISC_V_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/RISC_V_tb.v|
+!i113 1
+R9
+R10
+n@r@i@s@c_@v_tb
+vroot_newton24
+!s110 1699722934
+!i10b 1
+!s100 F^;HiDz90MDnbnLgBnM_Z3
+R1
+IbUKS5M^ZFVj;0^ld>zF1h0
+R2
+R3
+w1698702787
+8G:/iti Digital Design Track/project/RISCV32F/root_newton24.v
+FG:/iti Digital Design Track/project/RISCV32F/root_newton24.v
+!i122 102
+L0 1 86
+R5
+r1
+!s85 0
+31
+!s108 1699722932.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/root_newton24.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/root_newton24.v|
+!i113 1
+R9
+R10
+vshift_even_bits
+!s110 1699722928
+!i10b 1
+!s100 74C4FK^b4zzdfc9?4]8DC3
+R1
+IM2oN2bO9G8DdoDDXC=5841
+R2
+R3
+w1698702961
+8G:/iti Digital Design Track/project/RISCV32F/shift_even_bits.v
+FG:/iti Digital Design Track/project/RISCV32F/shift_even_bits.v
+!i122 101
+L0 1 17
+R5
+r1
+!s85 0
+31
+!s108 1699722924.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/shift_even_bits.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/shift_even_bits.v|
+!i113 1
+R9
+R10
+vshift_to_msb_equ_1
+!s110 1699722883
+!i10b 1
+!s100 >hXUQnC[50?Lobb=ZT1Pd1
+R1
+IL`YVZ>z94:f^]=<E4<z;:3
+R2
+R3
+w1698700415
+8G:/iti Digital Design Track/project/RISCV32F/shift_to_msb_equ_1.v
+FG:/iti Digital Design Track/project/RISCV32F/shift_to_msb_equ_1.v
+!i122 94
+L0 1 18
+R5
+r1
+!s85 0
+31
+!s108 1699722881.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/shift_to_msb_equ_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/shift_to_msb_equ_1.v|
+!i113 1
+R9
+R10
+vtb_classify
+!s110 1702089132
+!i10b 1
+!s100 XJLmGK0UYe6XT9joB5`ED3
+R1
+IVRM:GGIlFh@5hd_hOb6?F0
+R2
+R3
+w1702087156
+8G:\iti Digital Design Track\project\RISCV32F\tb_classify.v
+FG:\iti Digital Design Track\project\RISCV32F\tb_classify.v
+!i122 368
+L0 1 65
+R5
+r1
+!s85 0
+31
+!s108 1702089132.000000
+!s107 G:\iti Digital Design Track\project\RISCV32F\tb_classify.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\iti Digital Design Track\project\RISCV32F\tb_classify.v|
+!i113 1
+R9
+R10
+vtb_compare
+!s110 1702089130
+!i10b 1
+!s100 3[nAL4[ZM=HKhzMVoj1Jl1
+R1
+I5C=EoVbF=[i^>`3]X1lNO0
+R2
+R3
+w1702082237
+8G:\iti Digital Design Track\project\RISCV32F\tb_compare.v
+FG:\iti Digital Design Track\project\RISCV32F\tb_compare.v
+!i122 366
+L0 1 62
+R5
+r1
+!s85 0
+31
+!s108 1702089130.000000
+!s107 G:\iti Digital Design Track\project\RISCV32F\tb_compare.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\iti Digital Design Track\project\RISCV32F\tb_compare.v|
+!i113 1
+R9
+R10
+vtb_f2i
+!s110 1702089100
+!i10b 1
+!s100 CX[d>6@PL0g2oH2Xz4N>z2
+R1
+Ih6m]4j3=zezBR7:JA9VJ82
+R2
+R3
+w1699463086
+8G:\iti Digital Design Track\project\RISCV32F\f2i_tb.v
+FG:\iti Digital Design Track\project\RISCV32F\f2i_tb.v
+!i122 337
+L0 1 150
+R5
+r1
+!s85 0
+31
+!s108 1702089099.000000
+!s107 G:\iti Digital Design Track\project\RISCV32F\f2i_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\iti Digital Design Track\project\RISCV32F\f2i_tb.v|
+!i113 1
+R9
+R10
+vtb_fadd
+!s110 1702089129
+!i10b 1
+!s100 KhX[QhE?cbgK5N3VdS_0Y2
+R1
+I9VcL2DTh?>jRI@EH6K3Vl3
+R2
+R3
+w1702081741
+8G:\iti Digital Design Track\project\RISCV32F\fadd_tb.v
+FG:\iti Digital Design Track\project\RISCV32F\fadd_tb.v
+!i122 365
+L0 1 71
+R5
+r1
+!s85 0
+31
+!s108 1702089129.000000
+!s107 G:\iti Digital Design Track\project\RISCV32F\fadd_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\iti Digital Design Track\project\RISCV32F\fadd_tb.v|
+!i113 1
+R9
+R10
+vtb_fmul
+!s110 1702089128
+!i10b 1
+!s100 9Ca?Uh]dZaVN?4mL@YW=h3
+R1
+IZ>e`_e9TiX^SjDPKHG;nD3
+R2
+R3
+w1702080174
+8G:\iti Digital Design Track\project\RISCV32F\fmul_tb.v
+FG:\iti Digital Design Track\project\RISCV32F\fmul_tb.v
+!i122 364
+L0 1 165
+R5
+r1
+!s85 0
+31
+!s108 1702089128.000000
+!s107 G:\iti Digital Design Track\project\RISCV32F\fmul_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\iti Digital Design Track\project\RISCV32F\fmul_tb.v|
+!i113 1
+R9
+R10
+vtb_i2f
+!s110 1702089127
+!i10b 1
+!s100 b@CG=WR>8OFjSz1e4D0Gh0
+R1
+IajAiDXCXJ<48E]bhiEhA90
+R2
+R3
+w1702071736
+8G:\iti Digital Design Track\project\RISCV32F\i2f_tb.v
+FG:\iti Digital Design Track\project\RISCV32F\i2f_tb.v
+!i122 363
+L0 1 25
+R5
+r1
+!s85 0
+31
+!s108 1702089127.000000
+!s107 G:\iti Digital Design Track\project\RISCV32F\i2f_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\iti Digital Design Track\project\RISCV32F\i2f_tb.v|
+!i113 1
+R9
+R10
+vtb_minmax
+!s110 1702089131
+!i10b 1
+!s100 mfD4^h8kdi@l>JE^9H58I0
+R1
+I_jcflCg3li`;;=8i3JIgI2
+R2
+R3
+w1702082731
+8G:\iti Digital Design Track\project\RISCV32F\tb_minmax.v
+FG:\iti Digital Design Track\project\RISCV32F\tb_minmax.v
+!i122 367
+L0 1 54
+R5
+r1
+!s85 0
+31
+!s108 1702089131.000000
+!s107 G:\iti Digital Design Track\project\RISCV32F\tb_minmax.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\iti Digital Design Track\project\RISCV32F\tb_minmax.v|
+!i113 1
+R9
+R10
+vtop_module
+R0
+!i10b 1
+!s100 RoC:V`KOgkC=:kPQk:Z:j1
+R1
+I_`=nAzkJOD`?TDLli_b5g2
+R2
+R3
+R4
+8G:/iti Digital Design Track/project/RISCV32F/top_module.v
+FG:/iti Digital Design Track/project/RISCV32F/top_module.v
+!i122 356
+L0 4 7
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+R10
+vtop_module_tb
+!s110 1702089126
+!i10b 1
+!s100 PA1k1<dec8ocYV@8I:^KX0
+R1
+IVbSZS4fjl?WnmUZNjGY8H1
+R2
+R3
+w1699903393
+8G:\iti Digital Design Track\project\RISCV32F\top_module_tb.v
+FG:\iti Digital Design Track\project\RISCV32F\top_module_tb.v
+!i122 362
+R11
+R5
+r1
+!s85 0
+31
+!s108 1702089126.000000
+!s107 G:\iti Digital Design Track\project\RISCV32F\top_module_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:\iti Digital Design Track\project\RISCV32F\top_module_tb.v|
+!i113 1
+R9
+R10
+vwallace_24x24
+!s110 1702089097
+!i10b 1
+!s100 if3C_9^`I=k7Y]^5H0bDE1
+R1
+I?^PlJLm4kICGYH:8`b??h2
+R2
+R3
+w1699314822
+8G:/iti Digital Design Track/project/RISCV32F/wallace_24x24.v
+FG:/iti Digital Design Track/project/RISCV32F/wallace_24x24.v
+!i122 335
+L0 1 1147
+R5
+r1
+!s85 0
+31
+!s108 1702089097.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/wallace_24x24.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/wallace_24x24.v|
+!i113 1
+R9
+R10
+vwallace_24x24_product
+!s110 1702089099
+!i10b 1
+!s100 bJ@5fCEDRiJLN78;B3_ZH2
+R1
+ID;:gkJiThFAPFOYlWBDPY2
+R2
+R3
+w1699301851
+8G:/iti Digital Design Track/project/RISCV32F/wallace_24x24_product.v
+FG:/iti Digital Design Track/project/RISCV32F/wallace_24x24_product.v
+!i122 336
+R14
+R5
+r1
+!s85 0
+31
+!s108 1702089098.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/wallace_24x24_product.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/wallace_24x24_product.v|
+!i113 1
+R9
+R10
+vwallace_24x28
+!s110 1699722951
+!i10b 1
+!s100 =B`i^G:CD]<QCoicRic3S1
+R1
+I3FWdIQSj8bhkDD^4V^TQd1
+R2
+R3
+w1698703219
+8G:/iti Digital Design Track/project/RISCV32F/wallace_24x28.v
+FG:/iti Digital Design Track/project/RISCV32F/wallace_24x28.v
+!i122 104
+L0 1 49
+R5
+r1
+!s85 0
+31
+!s108 1699722946.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/wallace_24x28.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/wallace_24x28.v|
+!i113 1
+R9
+R10
+vwallace_24x28_product
+!s110 1699722941
+!i10b 1
+!s100 eSZXMS_CU7haf1?:jmgZ_1
+R1
+I9P1ZW9MIaEc9?UL@_DQH22
+R2
+R3
+w1698702901
+8G:/iti Digital Design Track/project/RISCV32F/wallace_24x28_product.v
+FG:/iti Digital Design Track/project/RISCV32F/wallace_24x28_product.v
+!i122 103
+R14
+R5
+r1
+!s85 0
+31
+!s108 1699722938.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/wallace_24x28_product.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/wallace_24x28_product.v|
+!i113 1
+R9
+R10
+vwallace_26x24
+!s110 1699722911
+!i10b 1
+!s100 FfCb5WmaRfe^78EaVG<iX3
+R1
+IiWF_>ikjGTdGZdTK36UXF2
+R2
+R3
+w1698702131
+8G:/iti Digital Design Track/project/RISCV32F/wallace_26x24.v
+FG:/iti Digital Design Track/project/RISCV32F/wallace_26x24.v
+!i122 99
+L0 1 43
+R5
+r1
+!s85 0
+31
+!s108 1699722909.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/wallace_26x24.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/wallace_26x24.v|
+!i113 1
+R9
+R10
+vwallace_26x24_product
+!s110 1699722895
+!i10b 1
+!s100 ?9SDEFT_Y234[KQAmik]92
+R1
+IV<HDEdLS=`0RkARW>k;m23
+R2
+R3
+w1698700701
+8G:/iti Digital Design Track/project/RISCV32F/wallace_26x24_product.v
+FG:/iti Digital Design Track/project/RISCV32F/wallace_26x24_product.v
+!i122 96
+R14
+R5
+r1
+!s85 0
+31
+!s108 1699722893.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/wallace_26x24_product.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/wallace_26x24_product.v|
+!i113 1
+R9
+R10
+vwallace_26x26
+!s110 1699722906
+!i10b 1
+!s100 zBgBjaF<a0ke^j8o0F2Tf1
+R1
+I@Zza`Gm8lNDVi?kB>zU_81
+R2
+R3
+w1698701880
+8G:/iti Digital Design Track/project/RISCV32F/wallace_26x26.v
+FG:/iti Digital Design Track/project/RISCV32F/wallace_26x26.v
+!i122 98
+L0 1 48
+R5
+r1
+!s85 0
+31
+!s108 1699722905.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/wallace_26x26.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/wallace_26x26.v|
+!i113 1
+R9
+R10
+vwallace_26x26_product
+!s110 1699722900
+!i10b 1
+!s100 S?FW@YNDVa[XA`=kZ3IX]2
+R1
+IMTm<ZBE<3cUMCdX[UBX^P1
+R2
+R3
+w1698700815
+8G:/iti Digital Design Track/project/RISCV32F/wallace_26x26_product.v
+FG:/iti Digital Design Track/project/RISCV32F/wallace_26x26_product.v
+!i122 97
+R14
+R5
+r1
+!s85 0
+31
+!s108 1699722898.000000
+!s107 G:/iti Digital Design Track/project/RISCV32F/wallace_26x26_product.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/iti Digital Design Track/project/RISCV32F/wallace_26x26_product.v|
+!i113 1
+R9
+R10
